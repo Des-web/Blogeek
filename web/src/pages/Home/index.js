@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Member from './members';
-import imgMember1 from './assets/eu.jpeg'
+import Member from '../../Components/Member';
+import imgMember1 from '../../assets/eu.jpeg'
 
 function Home() {
   return (
