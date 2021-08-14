@@ -32,3 +32,26 @@ button {
   --gray-800: #1F2937;
   --gray-900: #111827;
 }
+
+.member {
+  display: flex;
+  align-items: start;
+}
+
+.member-img {
+  border-radius: 50%;
+}
+
+.member-info {
+  padding: 0 1em;
+}
+
+.member-name {
+  color: var(--gray-900);
+  font-size: 26px;
+  margin: .5em 0;
+}
+
+.member-desc {
+  color: var(--gray-600);
+}
