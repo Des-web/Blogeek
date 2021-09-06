@@ -1,0 +1,11 @@
+
+.memberCard {
+    height: 218px;
+    width: 184px;
+    text-align: center;
+}
+
+.memberCardName {
+    font-size: 18px;
+    font-weight: normal;
+}

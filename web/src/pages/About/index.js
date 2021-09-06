@@ -2,12 +2,14 @@ import React from 'react';
 
 import NavBar from '../../Components/NavBar';
 import ProjectCard from '../../Components/ProjectCard';
+import MemberCard from '../../Components/MemberCard';
 
-import projectImgTemplate from '../../assets/my-js-gif.gif'
+import projectImgTemplate from '../../assets/my-js-gif.gif';
+import erickImgTemplate from '../../assets/erick-img.jpeg';
 
-const LOREM_PARAGRAPH = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo temporibus laudantium iste tempora sit, molestias excepturi amet ut et a pariatur libero commodi non eaque in veritatis, earum dignissimos!'
+const LOREM_PARAGRAPH = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo temporibus laudantium iste tempora sit, molestias excepturi amet ut et a pariatur libero commodi non eaque in veritatis, earum dignissimos!';
 
-const LOREM_MINI = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo temporibus laudantium iste tempora sit.'
+const LOREM_MINI = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo temporibus laudantium iste tempora sit.';
 
 function About() {
     return (
@@ -32,6 +34,18 @@ function About() {
             </ul>
 
             <h2 className="title1">Membros</h2>
+
+            <ul className="projectCardList">
+                <li>
+                    <MemberCard name="Erick Macena" imgsrc={erickImgTemplate}></MemberCard>
+                </li>
+                <li>
+                    <MemberCard name="Erick Macena" imgsrc={erickImgTemplate}></MemberCard>
+                </li>
+                <li>
+                    <MemberCard name="Erick Macena" imgsrc={erickImgTemplate}></MemberCard>
+                </li>
+            </ul>
         </div>
     );
 }
