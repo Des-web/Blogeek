@@ -1,0 +1,29 @@
+
+.projectCardList {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.projectCardList > li {
+    list-style-type: none;
+    width: fit-content;
+    margin: 0 2rem;
+}
+
+.projectCard {
+    width: 278px;
+    height: 254px;
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projectDes {
+    font-weight: normal;
+    line-height: 1.5rem;
+    font-size: inherit;
+}

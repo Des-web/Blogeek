@@ -32,50 +32,19 @@ button {
   --gray-700: #374151;
   --gray-800: #1F2937;
   --gray-900: #111827;
-}
 
-.member {
-  display: flex;
-  align-items: flex-start;
-  padding: 2rem 1rem;
-}
-
-.member-img {
-  border-radius: 50%;
-}
-
-.member-info {
-  padding: 0 1em;
-}
-
-.member-name {
-  color: var(--gray-900);
-  font-size: 26px;
-  margin: .5em 0;
-}
-
-.member-desc {
+  font-size: 14px;
   color: var(--gray-600);
 }
 
-.project-article {
-  padding: 1rem;
+.title1 {
+  font-size: 36px;
+  text-align: center;
+  padding: 2rem 0;
 }
 
-.project-title {
-  font-size: 32px;
-  color: var(--gray-900);
-  margin-bottom: .5em;
-  font-weight: bolder;
-}
-
-.project-date {
-  font-size: 16px;
-  color: var(--gray-600);
-}
-
-.project-p {
-  font-size: 18px;
-  color: var(--gray-800);
-  padding: 1em 0;
+.text1 {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem 0;
 }
