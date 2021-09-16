@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react'
 
 import './style.css'
 
-import PostItem from './PostItem'
+import PostItem from '../../Components/PostItem'
 import api from '../../services/api'
+import NavBar from '../../Components/NavBar'
 
 const Posts = () => {
   const [posts, setPosts] = useState([])
@@ -20,18 +21,16 @@ const Posts = () => {
           key={post.id}
           title={post.title}
           desc={post.content}
+          date={post.created_at}
         />
       ))}
     </div>
   
   return (
     <>
-      <h1>Posts</h1>
-      <div className="post-item-container">
-        <div className="container__line"></div>
-        <ul className="container__items">
-          { postItems }
-        </ul>
+      <NavBar />
+      <div className="container">
+        { postItems }
       </div>
     </>
   )

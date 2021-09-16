@@ -13,7 +13,7 @@ html, body, #root {
 *, button, input {
   background: none;
   border: 0;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Ubuntu, Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 button {
